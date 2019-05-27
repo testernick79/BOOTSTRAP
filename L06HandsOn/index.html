@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <title>BOOTSTRAP</title>
-            <link rel="stylesheet" 
-                href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-            <link rel="stylesheet" href="style2.css">    
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
-                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            
-    </head>
+
+<head>
+    <title>BOOTSTRAP</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-mtS696VnV9qeIoC8w/PrPoRzJ5gwydRVn0oQ9b+RJOPxE1Z1jXuuJcyeNxvNZhdx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nick's BootStrap Page</h1>
+    </div>
+
+    <form>
+        <div class="container">
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Full Name: </span>
+                </div>
+                <input type="text" aria-label="First name" class="form-control" placeholder="First Name">
+                <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name">
+            </div>
+
+            <label for="basic-url">Phone:</label>
+            <div class="input-group ">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="phone">Phone:</span>
+                </div>
+                <input type="text" class="form-control" id="phone" aria-describedby="basic-addon3">
+            </div>
+
+            <label for="basic-url">Email:</label>
+            <div class="input-group ">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="email">Email:</span>
+                </div>
+                <input type="text" class="form-control" id="email" aria-describedby="basic-addon3">
+            </div>
+            <br>
+            <div class="form-button">
+                <button type="button" class="btn btn-success">Submit</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+
+            </div>
+    </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="about">About Nick</h1>
+            </div>
+            <div class="col-sm-6">
+                <img src="nickandorion.jpg" class="img-fluid img-thumbnail" alt="...">
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    <strong> My name is Nick Fonseca. I enjoy writing code and developing web apps<br>
+                    I also like learning all I can about web-based software. I find it interesting!</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <body>
 
-        
     </body>
+
 </html>
